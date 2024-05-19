@@ -9,7 +9,7 @@ function NotificationData({ data }) {
           <div
             key={index}
             className={`${classes.main_data} ${
-              data.isRead === true && classes.mark_as_read
+              data.isRead && classes.mark_as_read
             }`}
           >
             <div>
