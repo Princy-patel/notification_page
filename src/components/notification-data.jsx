@@ -1,4 +1,5 @@
 import classes from "./notification-data.module.css";
+import NotificationDetails from "./notification-details";
 
 function NotificationData({ data }) {
   return (
@@ -7,7 +8,9 @@ function NotificationData({ data }) {
         return (
           <div
             key={index}
-            className={`${classes.main_data} ${data.isRead === true && classes.mark_as_read}`}
+            className={`${classes.main_data} ${
+              data.isRead === true && classes.mark_as_read
+            }`}
           >
             <div>
               <img src={data.image} className={classes.profile_img} />
@@ -18,6 +21,7 @@ function NotificationData({ data }) {
                 <strong>{data.notification}</strong>
               </p>
               <p>{data.time}</p>
+              <NotificationDetails details={data.details ?? null} />
             </div>
           </div>
         );

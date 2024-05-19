@@ -1,0 +1,7 @@
+.notification_details {
+  border: 1px solid rgb(137, 137, 137);
+  border-radius: 5px;
+  padding: 17px;
+  margin: 10px 10px 10px 0;
+  background-color: #e3f2fd;
+}
