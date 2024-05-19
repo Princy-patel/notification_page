@@ -1,0 +1,30 @@
+.main_data {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  margin: 0 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mark_as_read {
+  background-color: #f2f2f2;
+}
+
+.profile_img {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.info p:last-of-type {
+  color: rgb(137, 137, 137);
+}

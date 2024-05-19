@@ -1,0 +1,27 @@
+.notification {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.notification_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.notification_header strong {
+  background-color: #000fac;
+  color: white;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.notification_header p {
+  cursor: pointer;
+}
+
+.notification_header p:hover {
+  color: #000fac;
+}
